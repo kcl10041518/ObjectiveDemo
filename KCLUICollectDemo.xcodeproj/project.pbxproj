@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CEE34D236B8407AB27BFFB1 /* Pods_KCLUICollectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974F1505E6419936C920D3DB /* Pods_KCLUICollectDemo.framework */; };
+		6643E1C72068C9AB00393589 /* KCLHoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6643E1C62068C9AB00393589 /* KCLHoverViewController.m */; };
+		6688AE1C2068C76800AEC744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6688AE1B2068C76800AEC744 /* AppDelegate.m */; };
+		6688AE1F2068C76800AEC744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6688AE1E2068C76800AEC744 /* ViewController.m */; };
+		6688AE222068C76800AEC744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6688AE202068C76800AEC744 /* Main.storyboard */; };
+		6688AE242068C76800AEC744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6688AE232068C76800AEC744 /* Assets.xcassets */; };
+		6688AE272068C76800AEC744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6688AE252068C76800AEC744 /* LaunchScreen.storyboard */; };
+		6688AE2A2068C76800AEC744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6688AE292068C76800AEC744 /* main.m */; };
+		6688AE342068C76800AEC744 /* KCLUICollectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6688AE332068C76800AEC744 /* KCLUICollectDemoTests.m */; };
+		6688AE3F2068C76800AEC744 /* KCLUICollectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6688AE3E2068C76800AEC744 /* KCLUICollectDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6688AE302068C76800AEC744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6688AE0F2068C76800AEC744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6688AE162068C76800AEC744;
+			remoteInfo = KCLUICollectDemo;
+		};
+		6688AE3B2068C76800AEC744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6688AE0F2068C76800AEC744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6688AE162068C76800AEC744;
+			remoteInfo = KCLUICollectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36448F736FE0432DF033113D /* Pods-KCLUICollectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCLUICollectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCLUICollectDemo/Pods-KCLUICollectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		663606972068DD5600ECDED1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		663606982068DDA600ECDED1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		6643E1C52068C9AB00393589 /* KCLHoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLHoverViewController.h; sourceTree = "<group>"; };
+		6643E1C62068C9AB00393589 /* KCLHoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLHoverViewController.m; sourceTree = "<group>"; };
+		6688AE172068C76800AEC744 /* KCLUICollectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCLUICollectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6688AE1A2068C76800AEC744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6688AE1B2068C76800AEC744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6688AE1D2068C76800AEC744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6688AE1E2068C76800AEC744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6688AE212068C76800AEC744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6688AE232068C76800AEC744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6688AE262068C76800AEC744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6688AE282068C76800AEC744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6688AE292068C76800AEC744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6688AE2F2068C76800AEC744 /* KCLUICollectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLUICollectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6688AE332068C76800AEC744 /* KCLUICollectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLUICollectDemoTests.m; sourceTree = "<group>"; };
+		6688AE352068C76800AEC744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6688AE3A2068C76800AEC744 /* KCLUICollectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLUICollectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6688AE3E2068C76800AEC744 /* KCLUICollectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLUICollectDemoUITests.m; sourceTree = "<group>"; };
+		6688AE402068C76800AEC744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5EF5936A259119844DDEE7 /* Pods-KCLUICollectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCLUICollectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KCLUICollectDemo/Pods-KCLUICollectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		974F1505E6419936C920D3DB /* Pods_KCLUICollectDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCLUICollectDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6688AE142068C76800AEC744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEE34D236B8407AB27BFFB1 /* Pods_KCLUICollectDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6688AE2C2068C76800AEC744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6688AE372068C76800AEC744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663606992068E6A200ECDED1 /* YYKit学习 */ = {
+			isa = PBXGroup;
+			children = (
+				6688AE1D2068C76800AEC744 /* ViewController.h */,
+				6688AE1E2068C76800AEC744 /* ViewController.m */,
+			);
+			path = "YYKit学习";
+			sourceTree = "<group>";
+		};
+		6643E1C42068C8F400393589 /* 悬停TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6643E1C52068C9AB00393589 /* KCLHoverViewController.h */,
+				6643E1C62068C9AB00393589 /* KCLHoverViewController.m */,
+			);
+			path = "悬停TableView";
+			sourceTree = "<group>";
+		};
+		6688AE0E2068C76800AEC744 = {
+			isa = PBXGroup;
+			children = (
+				6688AE192068C76800AEC744 /* KCLUICollectDemo */,
+				6688AE322068C76800AEC744 /* KCLUICollectDemoTests */,
+				6688AE3D2068C76800AEC744 /* KCLUICollectDemoUITests */,
+				6688AE182068C76800AEC744 /* Products */,
+				B325D654FDE03AF449D5D07A /* Pods */,
+				747E708CCE0764CFA8CB3F06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6688AE182068C76800AEC744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6688AE172068C76800AEC744 /* KCLUICollectDemo.app */,
+				6688AE2F2068C76800AEC744 /* KCLUICollectDemoTests.xctest */,
+				6688AE3A2068C76800AEC744 /* KCLUICollectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6688AE192068C76800AEC744 /* KCLUICollectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				663606992068E6A200ECDED1 /* YYKit学习 */,
+				6643E1C42068C8F400393589 /* 悬停TableView */,
+				6688AE1A2068C76800AEC744 /* AppDelegate.h */,
+				6688AE1B2068C76800AEC744 /* AppDelegate.m */,
+				663606972068DD5600ECDED1 /* PrefixHeader.pch */,
+				663606982068DDA600ECDED1 /* Header.h */,
+				6688AE202068C76800AEC744 /* Main.storyboard */,
+				6688AE232068C76800AEC744 /* Assets.xcassets */,
+				6688AE252068C76800AEC744 /* LaunchScreen.storyboard */,
+				6688AE282068C76800AEC744 /* Info.plist */,
+				6688AE292068C76800AEC744 /* main.m */,
+			);
+			path = KCLUICollectDemo;
+			sourceTree = "<group>";
+		};
+		6688AE322068C76800AEC744 /* KCLUICollectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6688AE332068C76800AEC744 /* KCLUICollectDemoTests.m */,
+				6688AE352068C76800AEC744 /* Info.plist */,
+			);
+			path = KCLUICollectDemoTests;
+			sourceTree = "<group>";
+		};
+		6688AE3D2068C76800AEC744 /* KCLUICollectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6688AE3E2068C76800AEC744 /* KCLUICollectDemoUITests.m */,
+				6688AE402068C76800AEC744 /* Info.plist */,
+			);
+			path = KCLUICollectDemoUITests;
+			sourceTree = "<group>";
+		};
+		747E708CCE0764CFA8CB3F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974F1505E6419936C920D3DB /* Pods_KCLUICollectDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B325D654FDE03AF449D5D07A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EF5936A259119844DDEE7 /* Pods-KCLUICollectDemo.debug.xcconfig */,
+				36448F736FE0432DF033113D /* Pods-KCLUICollectDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6688AE162068C76800AEC744 /* KCLUICollectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6688AE432068C76800AEC744 /* Build configuration list for PBXNativeTarget "KCLUICollectDemo" */;
+			buildPhases = (
+				E362AAE1DB51CB7899C1A92C /* [CP] Check Pods Manifest.lock */,
+				6688AE132068C76800AEC744 /* Sources */,
+				6688AE142068C76800AEC744 /* Frameworks */,
+				6688AE152068C76800AEC744 /* Resources */,
+				C671E7249707122F5D3F0360 /* [CP] Embed Pods Frameworks */,
+				4CEA99DFE29036BAD76DEC66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCLUICollectDemo;
+			productName = KCLUICollectDemo;
+			productReference = 6688AE172068C76800AEC744 /* KCLUICollectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6688AE2E2068C76800AEC744 /* KCLUICollectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6688AE462068C76800AEC744 /* Build configuration list for PBXNativeTarget "KCLUICollectDemoTests" */;
+			buildPhases = (
+				6688AE2B2068C76800AEC744 /* Sources */,
+				6688AE2C2068C76800AEC744 /* Frameworks */,
+				6688AE2D2068C76800AEC744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6688AE312068C76800AEC744 /* PBXTargetDependency */,
+			);
+			name = KCLUICollectDemoTests;
+			productName = KCLUICollectDemoTests;
+			productReference = 6688AE2F2068C76800AEC744 /* KCLUICollectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6688AE392068C76800AEC744 /* KCLUICollectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6688AE492068C76800AEC744 /* Build configuration list for PBXNativeTarget "KCLUICollectDemoUITests" */;
+			buildPhases = (
+				6688AE362068C76800AEC744 /* Sources */,
+				6688AE372068C76800AEC744 /* Frameworks */,
+				6688AE382068C76800AEC744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6688AE3C2068C76800AEC744 /* PBXTargetDependency */,
+			);
+			name = KCLUICollectDemoUITests;
+			productName = KCLUICollectDemoUITests;
+			productReference = 6688AE3A2068C76800AEC744 /* KCLUICollectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6688AE0F2068C76800AEC744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = KCL;
+				TargetAttributes = {
+					6688AE162068C76800AEC744 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					6688AE2E2068C76800AEC744 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6688AE162068C76800AEC744;
+					};
+					6688AE392068C76800AEC744 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6688AE162068C76800AEC744;
+					};
+				};
+			};
+			buildConfigurationList = 6688AE122068C76800AEC744 /* Build configuration list for PBXProject "KCLUICollectDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6688AE0E2068C76800AEC744;
+			productRefGroup = 6688AE182068C76800AEC744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6688AE162068C76800AEC744 /* KCLUICollectDemo */,
+				6688AE2E2068C76800AEC744 /* KCLUICollectDemoTests */,
+				6688AE392068C76800AEC744 /* KCLUICollectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6688AE152068C76800AEC744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6688AE272068C76800AEC744 /* LaunchScreen.storyboard in Resources */,
+				6688AE242068C76800AEC744 /* Assets.xcassets in Resources */,
+				6688AE222068C76800AEC744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6688AE2D2068C76800AEC744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6688AE382068C76800AEC744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CEA99DFE29036BAD76DEC66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KCLUICollectDemo/Pods-KCLUICollectDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C671E7249707122F5D3F0360 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KCLUICollectDemo/Pods-KCLUICollectDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E362AAE1DB51CB7899C1A92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6688AE132068C76800AEC744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6643E1C72068C9AB00393589 /* KCLHoverViewController.m in Sources */,
+				6688AE1F2068C76800AEC744 /* ViewController.m in Sources */,
+				6688AE2A2068C76800AEC744 /* main.m in Sources */,
+				6688AE1C2068C76800AEC744 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6688AE2B2068C76800AEC744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6688AE342068C76800AEC744 /* KCLUICollectDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6688AE362068C76800AEC744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6688AE3F2068C76800AEC744 /* KCLUICollectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6688AE312068C76800AEC744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6688AE162068C76800AEC744 /* KCLUICollectDemo */;
+			targetProxy = 6688AE302068C76800AEC744 /* PBXContainerItemProxy */;
+		};
+		6688AE3C2068C76800AEC744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6688AE162068C76800AEC744 /* KCLUICollectDemo */;
+			targetProxy = 6688AE3B2068C76800AEC744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6688AE202068C76800AEC744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6688AE212068C76800AEC744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6688AE252068C76800AEC744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6688AE262068C76800AEC744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6688AE412068C76800AEC744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6688AE422068C76800AEC744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6688AE442068C76800AEC744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5EF5936A259119844DDEE7 /* Pods-KCLUICollectDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KCLUICollectDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = KCLUICollectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcl.KCLUICollectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6688AE452068C76800AEC744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36448F736FE0432DF033113D /* Pods-KCLUICollectDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KCLUICollectDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = KCLUICollectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcl.KCLUICollectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6688AE472068C76800AEC744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = KCLUICollectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcl.KCLUICollectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCLUICollectDemo.app/KCLUICollectDemo";
+			};
+			name = Debug;
+		};
+		6688AE482068C76800AEC744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = KCLUICollectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcl.KCLUICollectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCLUICollectDemo.app/KCLUICollectDemo";
+			};
+			name = Release;
+		};
+		6688AE4A2068C76800AEC744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = KCLUICollectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcl.KCLUICollectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCLUICollectDemo;
+			};
+			name = Debug;
+		};
+		6688AE4B2068C76800AEC744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = KCLUICollectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcl.KCLUICollectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCLUICollectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6688AE122068C76800AEC744 /* Build configuration list for PBXProject "KCLUICollectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6688AE412068C76800AEC744 /* Debug */,
+				6688AE422068C76800AEC744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6688AE432068C76800AEC744 /* Build configuration list for PBXNativeTarget "KCLUICollectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6688AE442068C76800AEC744 /* Debug */,
+				6688AE452068C76800AEC744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6688AE462068C76800AEC744 /* Build configuration list for PBXNativeTarget "KCLUICollectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6688AE472068C76800AEC744 /* Debug */,
+				6688AE482068C76800AEC744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6688AE492068C76800AEC744 /* Build configuration list for PBXNativeTarget "KCLUICollectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6688AE4A2068C76800AEC744 /* Debug */,
+				6688AE4B2068C76800AEC744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6688AE0F2068C76800AEC744 /* Project object */;
+}

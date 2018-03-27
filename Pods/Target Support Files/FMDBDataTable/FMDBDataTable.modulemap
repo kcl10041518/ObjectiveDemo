@@ -1,0 +1,6 @@
+framework module FMDBDataTable {
+  umbrella header "FMDBDataTable-umbrella.h"
+
+  export *
+  module * { export * }
+}
